@@ -8,7 +8,7 @@
     <!-- google font: Manrope -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- font awesome link -->
     <script src="https://kit.fontawesome.com/29c82678d5.js" crossorigin="anonymous"></script>
     <!-- tailwind & daisyUI cdn -->
@@ -22,6 +22,8 @@
                     colors: {
                         clifford: '#da373d',
                         'hockey-primary': '#FF4240',
+                        'hockey-black': '#131318',
+                        'hockey-gray': 'rgba(19, 19, 24, 0.40)',
                     }
                 }
             }
@@ -36,9 +38,78 @@
 
 <body class="font-manrope">
     <header class="container mx-auto px-5 lg:px-20 mt-12"></header>
-    <main class="container mx-auto px-5 lg:px-20 my-10 lg:my-24"></main>
+
+    <main class="container mx-auto px-5 lg:px-20">
+        <!-- Professional Hockeys Club starts here -->
+        <section class="my-10 lg:my-24">
+            <div class="border-y border-dotted border-hockey-gray py-8">
+                <h2 class="font-extrabold text-hockey-black text-4xl text-center mb-6">Professional Hockeys Club</h2>
+                <p class="font-medium text-hockey-gray text-center">The National Hockey League is a professional ice hockey league in North America comprising 32 teams, 25 in the United States and 7 in Canada.</p>
+            </div>
+            <div class="mt-8 flex flex-col lg:flex-row gap-8 items-center justify-center">
+                <div class="flex flex-col items-center justify-center gap-4">
+                    <div class="radial-progress text-red-500 font-bold" style="--value:87;" role="progressbar">87%</div>
+                    <h3 class="font-semibold text-xl text-hockey-black">Prayer Facility</h3>
+                    <p class="text-hockey-gray text-center">Aim to give every player the best experience of our sport making more, better, happier players in a sustainable club environment.</p>
+                </div>
+                <div class="flex flex-col items-center justify-center gap-4">
+                    <div class="radial-progress text-green-500 font-bold" style="--value:95;" role="progressbar">95%</div>
+                    <h3 class="font-semibold text-xl text-hockey-black">Experienced Coach</h3>
+                    <p class="text-hockey-gray text-center">Aim to give every player the best experience of our sport making more, better, happier players in a sustainable club environment.</p>
+                </div>
+                <div class="flex flex-col items-center justify-center gap-4">
+                    <div class="radial-progress text-amber-500 font-bold" style="--value:80;" role="progressbar">80%</div>
+                    <h3 class="font-semibold text-xl text-hockey-black">Senior Player</h3>
+                    <p class="text-hockey-gray text-center">Aim to give every player the best experience of our sport making more, better, happier players in a sustainable club environment.</p>
+                </div>
+                <div class="flex flex-col items-center justify-center gap-4">
+                    <div class="radial-progress text-blue-500 font-bold" style="--value:90;" role="progressbar">90%</div>
+                    <h3 class="font-semibold text-xl text-hockey-black">Training Ground</h3>
+                    <p class="text-hockey-gray text-center">Aim to give every player the best experience of our sport making more, better, happier players in a sustainable club environment.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Professional Hockeys Club ends here -->
+
+        <!-- Program Sections starts here -->
+        <section>
+            <div class="border-y border-dotted border-hockey-gray py-8">
+                <h2 class="font-extrabold text-hockey-black text-4xl text-center mb-6">Program Sections</h2>
+                <p class="font-medium text-hockey-gray text-center"></p>
+            </div>
+        </section>
+        <!-- Program Sections ends here -->
+
+        <!-- Our New Products starts here -->
+        <section class="my-10 lg:my-24">
+            <div class="border-y border-dotted border-hockey-gray py-8">
+                <h2 class="font-extrabold text-hockey-black text-4xl text-center mb-6">Our New Products</h2>
+                <p class="font-medium text-hockey-gray text-center"></p>
+            </div>
+        </section>
+        <!-- Our New Products ends here -->
+
+        <!-- Clients Question section starts here -->
+        <section>
+            <div class="border-y border-dotted border-hockey-gray py-8">
+                <h2 class="font-extrabold text-hockey-black text-4xl text-center mb-6">Clients Question</h2>
+                <p class="font-medium text-hockey-gray text-center"></p>
+            </div>
+        </section>
+        <!-- Clients Question section ends here -->
+
+        <!-- Get In Touch section starts here -->
+        <section class="my-10 lg:my-24">
+            <div class="border-y border-dotted border-hockey-gray py-8">
+                <h2 class="font-extrabold text-hockey-black text-4xl text-center mb-6">Get In Touch</h2>
+                <p class="font-medium text-hockey-gray text-center"></p>
+            </div>
+        </section>
+        <!-- Get In Touch section ends here -->
+    </main>
+
     <!-- footer starts here -->
-    <footer class="bg-black text-white p-10 lg:p-20 flex flex-col lg:flex-row gap-10 items-center">
+    <footer class="bg-hockey-black text-white p-10 lg:p-20 flex flex-col lg:flex-row gap-10 items-center">
         <div class="space-y-4 flex-1">
             <h3 class="font-extrabold text-3xl text-center lg:text-left">Get In Touch</h3>
             <p class="font-medium opacity-70 text-center lg:text-left">Connect to us through our email and contact. We will reach out to you with the best services possible.</p>
